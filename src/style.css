@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap";
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-family: var(--font-family);
+  scrollbar-width: thin;
+  scrollbar-color: #5a8cf1 #f5f5f8;
+}
